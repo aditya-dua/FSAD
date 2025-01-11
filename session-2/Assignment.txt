@@ -1,0 +1,7 @@
+You are a developer and are working on a To Do website.
+
+1. Create a HTML page with basic HTML inputs
+2. React React, ReactDOM and babel
+3. Add a script tag with babel
+4. Create an element which is added back to the HTML site.
+
