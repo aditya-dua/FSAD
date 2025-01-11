@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <title>React with JSX</title>
+    <body>
+        <div>
+            Html without React
+        </div>
+        <div id="app">
+
+
+        </div>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/babel">
+            function Greeting(){
+                return <h1> Hello World</h1>;
+            }
+
+            ReactDOM.render(<Greeting/>,document.getElementById("app"));
+        </script>
+
+    </body>
+</html>
